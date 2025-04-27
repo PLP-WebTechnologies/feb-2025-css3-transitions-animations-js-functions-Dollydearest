@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Animation with Local Storage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Our Interactive Page</h1>
+
+    <!-- Button to trigger animation -->
+    <button id="animateBtn" class="button">Click me for Animation!</button>
+
+    <!-- Box that will animate -->
+    <div id="animateBox" class="box"></div>
+
+    <div>
+      <label for="colorPicker">Pick a Box Color: </label>
+      <input type="color" id="colorPicker">
+    </div>
+
+    <div>
+      <label for="boxSize">Select Box Size: </label>
+      <input type="range" id="boxSize" min="50" max="300" value="150">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
